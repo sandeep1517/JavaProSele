@@ -15,7 +15,7 @@ public static void main(String[] args)
 		temp=temp+1;
 	    s1=s1/10;
 	}
-	
+	System.out.println(" "+temp+" "+s1);
 	int num=no;
 	int arm=0;
 	while(num!=0)
