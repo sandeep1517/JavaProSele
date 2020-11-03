@@ -1,9 +1,9 @@
 public class MarkerInterface 
 {
-	public static void main(String a[])
+	public static void main(String[] args)
 	{
 		demo obj=new demo();
-		if(obj instanceof B)
+		if(obj instanceof Bt)
 			  
 		{
 			obj.show();
@@ -14,12 +14,12 @@ public class MarkerInterface
 	}
 
 }
-interface B // Marker Interface
+interface Bt // Marker Interface
 {
 	
 }
 
-class demo implements B
+class demo implements Bt
 {
 	public void show()
 	{

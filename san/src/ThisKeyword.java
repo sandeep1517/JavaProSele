@@ -7,14 +7,14 @@ public class ThisKeyword {
 		//T obj =new T(5555);
 		//obj.show();
 		  
-		new T(666).show(); //Anonymous Object
+		new Tp(666).show(); //Anonymous Object
 	}
 }
-class T
+class Tp
 {
    private int i; //Instance Variable
    
-  public T(int i)//local Variable
+  public Tp(int i)//local Variable
    {
 	   this.i=i;  //Current Instance Variable
    }

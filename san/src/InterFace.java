@@ -8,7 +8,7 @@ public class InterFace {
 	}
 }
 
-interface a
+interface at
 {
 	 void show();	
 } 
@@ -19,7 +19,7 @@ class c
 		System.out.println("Is InterFace Class A");
 	}
 }
-class b  implements a
+class b  implements at
 {
 	public void show()
 	{

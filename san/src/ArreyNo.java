@@ -3,23 +3,23 @@ public class ArreyNo {
 
 	public static void main (String agr[])
 	{
-	 Abc obj= new Abc(55);
+	 Abct obj= new Abct(55);
 	}
 	
 }
- class Abc
+ class Abct
  {
-	 public Abc()
+	 public Abct()
 	 {
 		 System.out.print("IS Defoult Constructor");
 	 }
 	
-	public Abc(int i)
+	public Abct(int i)
 	 {
 		 System.out.println("IS Parameter Constructor");
 		
 	 }
-	 public Abc (int i,double j)
+	 public Abct(int i,double j)
 	 {
 		 System.out.println("is Double Constructor");
 	 } 
